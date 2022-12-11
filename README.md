@@ -19,9 +19,9 @@ Main File Configs: <br>
 * Dataset.py: a dataloader to read data. <br>
 
 <br>
-<br>
-<br>
 
 How to run our code: <br>
 * prepare your data with the paired images; <br>
-* aaa
+* modify the data path and reading mode in Dataset.py; <br>
+* run train.py to train the model; <br>
+* run test.py to test the trained model.
