@@ -1,10 +1,13 @@
-# SHENet
-## a single-horizon disease evolution network
+# SHENet: a single-horizon disease evolution network
 
-The model architecture is shown as follows:
+We propose a single-horizon disease evolution network (SHENet) to predictively generate post-therapeutic SD-OCT images by inputting pre-therapeutic SD-OCT images with neovascular age-related macular degeneration (nAMD). 
+In SHENet, a feature encoder converts the input SD-OCT images to deep features, then a graph evolution module predicts the process of disease evolution in high-dimensional latent space and outputs the predicted deep features, and lastly feature decoder recovers the predicted deep features to SD-OCT images. 
+We further propose evolution reinforcement module to ensure the effectiveness of disease evolution learning and further obtain the realistic SD-OCT images by adversarial training.
+
+# The model architecture is shown as follows:
 ![Image text](https://github.com/ZhangYH0502/SDENet/blob/main/f2.png)
 
-The predictive results are shown as follows:
+# The predictive results are shown as follows:
 ![Image text](https://github.com/ZhangYH0502/SDENet/blob/main/f4.png)
 
 Main File Configs: <br>
