@@ -13,3 +13,12 @@ Main File Configs: <br>
 * patchGAN_discriminator.py: discriminator model; <br>
 * basic_unet.py: generator model; <br>
 * loss.py: loss function; <br>
+* Dataset.py: a dataloader to read data. <br>
+
+<br>
+<br>
+<br>
+
+How to run our code: <br>
+* prepare your data with the paired images; <br>
+* aaa
