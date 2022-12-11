@@ -7,3 +7,7 @@ The model architecture is shown as follows:
 
 The predictive results are shown as follows:
 ![Image text](https://github.com/ZhangYH0502/SDENet/blob/main/f4.png)
+
+File Config:
+(1) train.py: the main file to run for training the model;
+(2) test.py: test the trained model
